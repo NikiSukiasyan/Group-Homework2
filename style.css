@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f7;
+}
+.background {
+  background-image: url("./images/bruxelles.jpeg");
+  width: 1440px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.header-wrapper {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-wrapper li {
+  font-size: 15px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.header-wrapper li:after {
+  content: "";
+  height: 30px;
+  width: 1px;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.header-wrapper a {
+  color: rgb(255, 255, 255);
+  border: 8px solid;
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+}
+.text {
+  position: absolute;
+  bottom: 44.5px;
+  left: 180px;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 9px;
+  width: 750px;
+  height: 86px;
+}
+.wrapper h1 {
+  font-size: 32.7px;
+  color: #262626;
+  width: 396px;
+  height: 33px;
+  margin-left: 180px;
+  margin-top: 84.7px;
+}
+.wrapper p {
+  color: #434343;
+  height: 168px;
+  font-size: 25px;
+  margin-left: 180px;
+  margin-top: 65px;
+}
+.bigbox {
+  display: flex;
+  background-color: #ffffff;
+  width: 1260px;
+  height: 629px;
+  margin: 90px;
+}
+.bigbox h2 {
+  color: #262626;
+  font-size: 25px;
+  margin-left: 90px;
+  margin-top: 60px;
+  height: 36px;
+  letter-spacing: 5px;
+}
+.bigbox p {
+  display: flex;
+  width: 1001px;
+  height: 194px;
+  font-size: 18px;
+  color: #434343;
+  margin-left: -728px;
+  margin-top: 126px;
+}
+.box {
+  position: relative;
+}
+.box h3 {
+  position: absolute;
+  height: 36px;
+  color: #262626;
+  font-size: 25px;
+  letter-spacing: 5px;
+  top: -400px;
+  left: 180px;
+}
+.box p {
+  position: absolute;
+  font-size: 18px;
+  color: #434343;
+  height: 93px;
+  left: 180px;
+  top: -330px;
+}
+.photo {
+  width: 1260px;
+  height: 556px;
+  margin-top: -90px;
+  margin-left: 90px;
+  border-radius: 6px;
+}
