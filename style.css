@@ -209,6 +209,11 @@ body {
 .child-div {
   max-width: 1350px;
   margin: 0 auto;
+  display: flex;
+  column-gap: 90px;
+}
+.flex-2 {
+  margin-top: 30px;
 }
 .forth-section h3 {
   color: #262626;
@@ -222,9 +227,6 @@ body {
   height: 126px;
   margin-top: 35px;
   font-size: 18px;
-}
-.forth-section p:first-child {
-  margin-right: 40px;
 }
 .CONCLUSION {
   background-color: #0865de;
