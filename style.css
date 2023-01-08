@@ -41,7 +41,7 @@ body {
   cursor: pointer;
 }
 .header-wrapper li:after {
-  content: "";
+  content: '';
   height: 30px;
   width: 1px;
   margin-left: 10px;
@@ -121,6 +121,7 @@ body {
 }
 .box p {
   position: absolute;
+  width: 950px;
   font-size: 18px;
   color: #434343;
   width: 950px;
@@ -137,4 +138,100 @@ body {
 .image img {
   width: 100%;
   border-radius: 6px;
+}
+/* .third-section {
+  display: grid;
+  place-items: center;
+} */
+.third-section-article {
+  width: 1260px;
+  height: 150px;
+  margin: 90px;
+}
+.third-section-article h3 {
+  color: #262626;
+  font-size: 25px;
+  margin-left: 180px;
+  margin-top: 60px;
+  height: 36px;
+  letter-spacing: 5px;
+}
+.third-section-article p {
+  display: flex;
+  width: 1001px;
+  height: 194px;
+  font-size: 18px;
+  color: #434343;
+  margin-left: 180px;
+  margin-top: 60px;
+}
+.third-section-second-article {
+  display: flex;
+  flex-direction: column;
+  width: 1260px;
+  height: 150px;
+  margin: 90px;
+}
+.third-section-second-article h3 {
+  color: #262626;
+  font-size: 25px;
+  margin-left: 180px;
+  height: 36px;
+  letter-spacing: 5px;
+}
+.third-section-second-article p {
+  display: flex;
+  width: 1001px;
+  height: 194px;
+  font-size: 18px;
+  color: #434343;
+  margin-top: 35px;
+  margin-left: 180px;
+}
+.third-image img {
+  position: relative;
+  width: 100%;
+  height: 787px;
+}
+.forth-section {
+  width: 100%;
+  height: 150px;
+  margin: 90px;
+}
+.forth-section h3 {
+  color: #262626;
+  font-size: 25px;
+  margin-left: 180px;
+  height: 36px;
+  letter-spacing: 5px;
+}
+.forth-section p {
+  display: inline-block;
+  width: 438px;
+  height: 126px;
+  margin-top: 30;
+  margin-left: 180px;
+  font-size: 18px;
+}
+.forth-section p:first-child {
+  margin-right: 90px;
+}
+.CONCLUSION {
+  background-color: #0865de;
+  width: 100%;
+  height: 474px;
+}
+.CONCLUSION h3 {
+  font-size: 25px;
+  padding-top: 90px;
+  margin-left: 180px;
+  color: #fff;
+}
+.CONCLUSION p {
+  font-size: 25px;
+  margin-top: 60px;
+  margin-left: 180px;
+  width: 1001px;
+  height: 168px;
+  color: #002d69;
 }
