@@ -205,14 +205,14 @@ body {
   height: 150px;
   margin: 90px;
 }
-.ET-ENCORE {
-  width: 100%;
+
+.child-div {
+  max-width: 1350px;
   margin: 0 auto;
 }
 .forth-section h3 {
   color: #262626;
   font-size: 25px;
-  margin: 0 auto;
   height: 36px;
   letter-spacing: 5px;
 }
@@ -220,12 +220,11 @@ body {
   display: inline-block;
   width: 438px;
   height: 126px;
-  margin-top: 30;
-  margin: 0 auto;
+  margin-top: 35px;
   font-size: 18px;
 }
 .forth-section p:first-child {
-  padding-right: 90px;
+  margin-right: 40px;
 }
 .CONCLUSION {
   background-color: #0865de;
